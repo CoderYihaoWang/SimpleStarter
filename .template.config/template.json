@@ -1,0 +1,30 @@
+{
+    "author": "Yihao Wang",
+    "name": "Simple Starter",
+    "identity": "Yihao.Simple",
+    "shortName": "simple",
+    "tags": {
+        "language": "C#"
+    },
+    "sourceName": "Simple",
+    "preferNameDirectory": "true",
+    "sources": [
+        {
+          "modifiers": [
+            {
+              "exclude": [
+                ".git/**",
+                ".idea/**",
+                ".vscode/**",
+                ".vs/**",
+                ".DS_Store/**",
+                "**/.idea/**",
+                "**/.vscode/**",
+                "**/.vs/**",
+                "**/.DS_Store/**"
+              ]
+            }
+          ]
+        }
+      ]
+}
